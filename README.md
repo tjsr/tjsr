@@ -6,7 +6,7 @@ Some current in-flight projects:
 - [node-patched-npm](https://github.com/tjsr/node_patched_npm) - A patched node/alpine container with recent vulnerability fixes including npm fixes.
 - [simple-env-utils](https://github.com/tjsr/simple-env-utils) - simple methods for ensuring compliant environment variables.
 - [mysql-pool-utils](https://github.com/tjsr/mysql-pool-utils) - simple re-usable database connection pool handling functions.
-- [user-session-middleware](https://github.com/tjsr/mysql-pool-utils) - simple session handling and user authentication middleware for microservices.
+- [user-session-middleware](https://github.com/tjsr/user-session-middleware) - simple session handling and user authentication middleware for microservices.
 - [@tjsr/remote_docker_stop](https://github.com/tjsr/remote_docker_stop) - Github action to stop a remote docker container over SSH
 - [@tjsr/remote_docker_pull](https://github.com/tjsr/remote_docker_pull) - Github action to pull a remote docker image over SSH
 - [sparse-bit-string](https://github.com/tjsr/sparse-bit-string) - A packed, compressed bit flag suite suitable for including in URLs and QR codes where data limits are factors.
