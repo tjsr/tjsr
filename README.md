@@ -36,8 +36,8 @@ Stuff I want to get around to but haven't had the time.
 
 ## Older projects
 
-Most of my older projects are hosted on bitbucket at [bitbucket.org/tjsrowe](https://bitbucket.org/tjsrowe).  Predominantly these ones are utilities for helping the cycling/mountain bike community.
+Most of my older projects are hosted on bitbucket at [bitbucket.org/tjsrowe](https://bitbucket.org/tjsrowe).  Predominantly these ones are utilities for helping the cycling/mountain bike community.  They also tend to use Bitbucket pipelines and self-hosted runners.
 
 ## Elsewhere
 
-📫 Find me at insta @tjsr.id.au (for chocolate creatioons), twitter @tjsr (for general 'old man shakes fist at cloud' stuff), or email to tim@tjsr.id.au
+📫 Find me at insta [@tjsr.id.au](https://www.instagram.com/tjsr.id.au) (for chocolate creatioons), twitter [@tjsr](https://x.com/tjsr) (for general 'old man shakes fist at cloud' stuff), or email to [Tim Rowe](mailto:tim@tjsr.id.au)
