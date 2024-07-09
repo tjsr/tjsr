@@ -6,7 +6,12 @@ Some current in-flight projects:
 
 - [user-session-middleware](https://github.com/tjsr/user-session-middleware) - session handling and user authentication middleware for microservices, intended for rapid user-accessible API scaffolding. Collioqually 'USM'.
 - [tagtool](https://github.com/tjsr/tagtool) - USM-based data tagging microservice for embedding in to applications.
+- [express-server-helper](https://github.com/tjsr/express-server-helper) - Wrapper utility for including common middleware used to create rapid ExpressJS REST APIs with USM.
+- [package-json-utils](https://github.com/tjsr/package-json-utils) - Utilities for finding and extracting common data out of package.json required by other tools in this list.
+- [linkteam](https://github.com/tjsr/linkteam) - CLI tool to search for symlinks or junctions installed in global node_modules used by a project, and link them based on owner, pattern, or everything found.
 - [girt](https://github.com/tjsr/girt) - Github Repo Tool.  Simple commandline tool for updating github repository properties and settings that aren't available from the Gihub CLI except using complex queries or GraphQL.
+- [fs-util](https://github.com/tjsr/fs-utils) - NodeJS filesystem utils including directory traversal search.
+- [testUtils](https://github.com/tjsr/testUtils) - NodeJS project testing utils.
 - [pinpanion](https://github.com/tjsr/pinpanion) - A Pinny Arcade pin collection tool.  Uses TS/React/MaterialUI/Vite.
 - [node-patched-npm](https://github.com/tjsr/node_patched_npm) - A patched node/alpine container with recent vulnerability fixes including npm fixes.
 - [simple-env-utils](https://github.com/tjsr/simple-env-utils) - simple methods for ensuring compliant environment variables.
