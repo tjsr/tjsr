@@ -11,7 +11,7 @@ Some current in-flight projects:
 | [package-json-utils](https://github.com/tjsr/package-json-utils)<br>![package-json-utils](https://github.com/tjsr/package-json-utils/actions/workflows/build.yml/badge.svg) | Utilities for finding and extracting common data out of package.json required by other tools in this list. |
 | [linkteam](https://github.com/tjsr/linkteam)<br>![linkteam](https://github.com/tjsr/linkteam/actions/workflows/build.yml/badge.svg) | CLI tool to search for symlinks or junctions installed in global node_modules used by a project, and link them based on owner, pattern, or everything found. |
 | [girt](https://github.com/tjsr/girt)<br>![girt](https://github.com/tjsr/girt/actions/workflows/build.yml/badge.svg) | Github Repo Tool.  Simple commandline tool for updating github repository properties and settings that aren't available from the Gihub CLI except using complex queries or GraphQL. |
-| [fs-util](https://github.com/tjsr/fs-utils)<br>![fs-util](https://github.com/tjsr/fs-util/actions/workflows/build.yml/badge.svg) | NodeJS filesystem utils including directory traversal search. |
+| [fs-utils](https://github.com/tjsr/fs-utils)<br>![fs-utils](https://github.com/tjsr/fs-utils/actions/workflows/build.yml/badge.svg) | NodeJS filesystem utils including directory traversal search. |
 | [testUtils](https://github.com/tjsr/testUtils)<br>![testUtils](https://github.com/tjsr/testUtils/actions/workflows/build.yml/badge.svg) | NodeJS project testing utils. |
 | [pinpanion](https://github.com/tjsr/pinpanion) | A Pinny Arcade pin collection tool.  Uses TS/React/MaterialUI/Vite. |
 | [node-patched-npm](https://github.com/tjsr/node_patched_npm) | A patched node/alpine container with recent vulnerability fixes including npm fixes. |
