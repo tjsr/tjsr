@@ -4,21 +4,32 @@
 
 Some current in-flight projects:
 
-- [user-session-middleware](https://github.com/tjsr/user-session-middleware) - session handling and user authentication middleware for microservices, intended for rapid user-accessible API scaffolding. Collioqually 'USM'.
-- [tagtool](https://github.com/tjsr/tagtool) - USM-based data tagging microservice for embedding in to applications.
-- [express-server-helper](https://github.com/tjsr/express-server-helper) - Wrapper utility for including common middleware used to create rapid ExpressJS REST APIs with USM.
-- [package-json-utils](https://github.com/tjsr/package-json-utils) - Utilities for finding and extracting common data out of package.json required by other tools in this list.
-- [linkteam](https://github.com/tjsr/linkteam) - CLI tool to search for symlinks or junctions installed in global node_modules used by a project, and link them based on owner, pattern, or everything found.
-- [girt](https://github.com/tjsr/girt) - Github Repo Tool.  Simple commandline tool for updating github repository properties and settings that aren't available from the Gihub CLI except using complex queries or GraphQL.
-- [fs-util](https://github.com/tjsr/fs-utils) - NodeJS filesystem utils including directory traversal search.
-- [testUtils](https://github.com/tjsr/testUtils) - NodeJS project testing utils.
+- [user-session-middleware](https://github.com/tjsr/user-session-middleware)  - session handling and user authentication middleware for microservices, intended for rapid user-accessible API scaffolding. Collioqually 'USM'.  
+![user-session-middleware](https://github.com/tjsr/user-session-middleware/actions/workflows/build.yml/badge.svg)
+- [tagtool](https://github.com/tjsr/tagtool) - USM-based data tagging microservice for embedding in to applications.  
+![tagtool](https://github.com/tjsr/tagtool/actions/workflows/build.yml/badge.svg)
+- [express-server-helper](https://github.com/tjsr/express-server-helper) - Wrapper utility for including common middleware used to create rapid ExpressJS REST APIs with USM.  
+![express-server-helper](https://github.com/tjsr/express-server-helper/actions/workflows/build.yml/badge.svg)
+- [package-json-utils](https://github.com/tjsr/package-json-utils) - Utilities for finding and extracting common data out of package.json required by other tools in this list.  
+![package-json-utils](https://github.com/tjsr/package-json-utils/actions/workflows/build.yml/badge.svg)
+- [linkteam](https://github.com/tjsr/linkteam) - CLI tool to search for symlinks or junctions installed in global node_modules used by a project, and link them based on owner, pattern, or everything found.  
+![linkteam](https://github.com/tjsr/linkteam/actions/workflows/build.yml/badge.svg)
+- [girt](https://github.com/tjsr/girt) - Github Repo Tool.  Simple commandline tool for updating github repository properties and settings that aren't available from the Gihub CLI except using complex queries or GraphQL.  
+![girt](https://github.com/tjsr/girt/actions/workflows/build.yml/badge.svg)
+- [fs-util](https://github.com/tjsr/fs-utils) - NodeJS filesystem utils including directory traversal search.  
+![fs-util](https://github.com/tjsr/fs-util/actions/workflows/build.yml/badge.svg)
+- [testUtils](https://github.com/tjsr/testUtils) - NodeJS project testing utils.  
+![testUtils](https://github.com/tjsr/testUtils/actions/workflows/build.yml/badge.svg)
 - [pinpanion](https://github.com/tjsr/pinpanion) - A Pinny Arcade pin collection tool.  Uses TS/React/MaterialUI/Vite.
 - [node-patched-npm](https://github.com/tjsr/node_patched_npm) - A patched node/alpine container with recent vulnerability fixes including npm fixes.
-- [simple-env-utils](https://github.com/tjsr/simple-env-utils) - simple methods for ensuring compliant environment variables.
-- [mysql-pool-utils](https://github.com/tjsr/mysql-pool-utils) - simple re-usable database connection pool handling functions.
+- [simple-env-utils](https://github.com/tjsr/simple-env-utils) - simple methods for ensuring compliant environment variables.  
+![express-server-helper](https://github.com/tjsr/express-server-helper/actions/workflows/build.yml/badge.svg)
+- [mysql-pool-utils](https://github.com/tjsr/mysql-pool-utils) - simple re-usable database connection pool handling functions.  
+![mysql-pool-utils](https://github.com/tjsr/mysql-pool-utils/actions/workflows/build.yml/badge.svg)
 - [@tjsr/remote_docker_stop](https://github.com/tjsr/remote_docker_stop) - Github action to stop a remote docker container over SSH
 - [@tjsr/remote_docker_pull](https://github.com/tjsr/remote_docker_pull) - Github action to pull a remote docker image over SSH
-- [sparse-bit-string](https://github.com/tjsr/sparse-bit-string) - A packed, compressed bit flag suite suitable for including in URLs and QR codes where data limits are factors.
+- [sparse-bit-string](https://github.com/tjsr/sparse-bit-string) - A packed, compressed bit flag suite suitable for including in URLs and QR codes where data limits are factors.  
+![sparse-bit-string](https://github.com/tjsr/sparse-bit-string/actions/workflows/build.yml/badge.svg)
 - [absee](https://github.com/tjsr/absee) - A/B See.  An A/B testing tool that allows users to compare and select from presented elements or sets.
 - [eslint-config](https://github.com/tjsr/eslint-config) - Shared typescript-eslint rules and configuration for use across all TS projects.
 
