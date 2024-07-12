@@ -34,9 +34,7 @@ Some current in-flight projects:
 
 Stuff I want to get around to but haven't had the time.
 
-- ExpressServerHelper - An incredibly quick wrapper for common basic Express server scaffolding and plugins - currently lives within `tagtool` and to be split out to its own project for re-use.
 - @tjsr/ts-base - A two-way project template, for basing new projects on with a commandline selector, which also allows syncing back to other projects and rebasing to keep all small projects and microservices in sync.
-- npm ldlink - 'local dev link' command for use with npm - scans all global node_modules for use of symlinks or junctions, and, based on config, links all local usages to use the node_module globally linked project. Intended for future addition to npm core.
 - [glob](https://github.com/isaacs/node-glob), [rimraf](https://github.com/isaacs/rimraf), [minimatch](https://github.com/isaacs/minimatch) and [pacote](https://github.com/npm/pacote) updates. Updates to core npm/node libraries to use latest versions, and ensure support with nodejs20/22. Requires some significant work and fixes to timout issues in [tapjs](https://github.com/tapjs/tapjs).
 - LWDB - croudsourced data collection tool for the Last War mobile game to help players plan and determine durations and costs of upgrades.
 
