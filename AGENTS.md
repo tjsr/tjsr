@@ -1,5 +1,18 @@
 # Agent instructions
 
+## npm dependency requirements
+
+- Put runtime, peer, development-tool, and engine requirements in the appropriate
+  `package.json` fields. Declare tools used by scripts directly.
+- Use npm-generated lockfiles and `npm ci --strict-peer-deps`; use `npm ls --all`
+  when tree validation is needed. Fix dependency declarations and resolution.
+- Do not add JavaScript, shell, or CI version assertions that duplicate npm
+  constraints or pin installed dependency versions in validation code. Do not
+  hand-compose lockfile records or rewrite dependency declarations during CI.
+- Verify behavior, types, and packed consumers. Declare version-specific test
+  dependencies in fixture manifests; keep vendored-artifact provenance checks
+  separate from compatibility checks.
+
 ## npm verification and private dependencies
 
 Follow the [shared TJSR policy][tjsr-npm-policy]. These essentials apply even when

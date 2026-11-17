@@ -24,6 +24,33 @@ packages that consume private GitHub Packages dependencies.
   or fabricate successful verification. Preserve the lockfile unless a real
   dependency change requires it.
 
+## Dependency declarations and compatibility checks
+
+- Keep dependency requirements in npm manifests: runtime dependencies in
+  `dependencies`, consumer compatibility in `peerDependencies`, test/build tools
+  in `devDependencies`, and supported runtimes in `engines`. Use npm semver
+  ranges appropriate to the actual compatibility requirement. Use a documented
+  `overrides` entry only when a transitive resolution constraint is needed.
+- Let npm enforce these declarations and reproduce the committed lockfile with
+  `npm ci --strict-peer-deps`. Use `npm ls --all` when dependency-tree validation
+  is needed. Fix the declarations or resolution when these commands fail.
+- Do not add JavaScript, shell, or CI assertions that require installed packages
+  to equal hard-coded versions, repeat version ranges from manifests, or
+  reimplement npm's dependency/peer/engine resolution. Do not inspect another
+  package's internals to build a second dependency-version policy. A normal
+  compatible dependency update must not require editing validation code.
+- Generate and reconcile `package-lock.json` with npm. Do not manually compose
+  package records, dependency graphs, versions, or integrity values, or use a CI
+  script to rewrite declarations merely to make installation pass.
+- Test API behavior, type compatibility, and packed-package consumers. For a
+  deliberate version-specific compatibility fixture, declare its dependency
+  versions in the fixture's npm manifest and test the relevant behavior instead
+  of asserting the installed version number. Keep provenance checks for vendored
+  artifacts separate from dependency compatibility checks.
+- Declare every tool imported or invoked by project scripts as a direct
+  dependency in the appropriate section; do not rely on incidental transitive
+  packages such as `semver` being hoisted into `node_modules`.
+
 ## Branch verification through GitHub Actions
 
 1. Inspect all push/PR workflow triggers and called actions before publishing
